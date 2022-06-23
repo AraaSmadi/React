@@ -6,11 +6,11 @@ function Nav (){
       
           <li>
             <NavLink exact to="/" style={({ isActive }) => 
-                      (isActive ? {color: 'lavender'} : {color: 'blue'})}>Home</NavLink>
+                      (isActive ? {color: 'red'} : {color: 'blue'})}>Home</NavLink>
           </li>
           <li>
             <NavLink style={({ isActive }) => 
-                      (isActive ? {color: 'lavender'} : {color: 'blue'})} to="/about">
+                      (isActive ? {color: 'red'} : {color: 'blue'})} to="/about">
               About
             </NavLink>
           </li>
