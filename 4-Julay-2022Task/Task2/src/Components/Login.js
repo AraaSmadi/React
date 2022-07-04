@@ -20,6 +20,7 @@ const [email ,pass , flag , Handlechange] = Custome(em , pa);
     </div>
     <button type="submit" class="btn btn-default" onClick={Handlechange}>Submit</button>
   {flag && <h1>Success</h1>}
+    {!flag && <h1>Faild</h1>}
   </form>
 </div>
   );
