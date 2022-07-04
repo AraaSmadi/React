@@ -3,7 +3,7 @@ import Custome from './Custome';
 function Login() {
 const [em ,setem]=useState('');
 const [pa ,setpa]=useState('');
-const [email ,pass , flag , Handlechange] = Custome(em , pa);
+const [email ,pass , Handlechange] = Custome(em , pa);
 
   return (
 <div class="container">
@@ -19,7 +19,7 @@ const [email ,pass , flag , Handlechange] = Custome(em , pa);
       <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd" onChange={ps =>setpa(ps.target.value)}/>
     </div>
     <button type="submit" class="btn btn-default" onClick={Handlechange}>Submit</button>
-  {flag && <h1>Success</h1>}
+  
   </form>
 </div>
   );
