@@ -19,7 +19,12 @@ const [email ,pass , Handlechange] = Custome(em , pa);
       <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd" onChange={ps =>setpa(ps.target.value)}/>
     </div>
     <button type="submit" class="btn btn-default" onClick={Handlechange}>Submit</button>
+<<<<<<< HEAD
   
+=======
+  {flag && <h1>Success</h1>}
+    {!flag && <h1>Faild</h1>}
+>>>>>>> 7aa5f74f8aeb2c67ac2651f6c13a912a326f31ae
   </form>
 </div>
   );
